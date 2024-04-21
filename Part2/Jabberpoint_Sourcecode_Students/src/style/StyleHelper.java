@@ -29,7 +29,8 @@ public class StyleHelper {
      * @return The Style.Style for that level.
      */
     public static Style getStyle(int level) {
-        if (level >= styles.length) {
+        if (level >= styles.length)
+        {
             level = styles.length - 1;
         }
         return styles[level];

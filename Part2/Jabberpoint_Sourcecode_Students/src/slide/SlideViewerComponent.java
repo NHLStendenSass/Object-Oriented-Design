@@ -23,15 +23,15 @@ public class SlideViewerComponent extends JComponent
 {
 
     private static final long serialVersionUID = 227L;
-    private static final Color BGCOLOR = Color.white, COLOR = Color.black; //NOTE: Combine 2 declarations into 1
+    private static final Color BGCOLOR = Color.white, COLOR = Color.black;
     private static final String FONTNAME = "Dialog";
     private static final int FONTSTYLE = Font.BOLD;
     private static final int FONTHEIGHT = 10;
-    private static final int XPOS = 1100, YPOS = 20; //NOTE: Combine 2 declarations into 1
-    private final Font labelFont; //The font for labels //NOTE: Removes null
-    private final JFrame frame; //NOTE: Removes null, make final
-    private Slide slide; //The current slide
-    private Presentation presentation; //The presentation //NOTE: Removes null
+    private static final int XPOS = 1100, YPOS = 20;
+    private final Font labelFont;
+    private final JFrame frame;
+    private Slide slide;
+    private Presentation presentation;
 
     public SlideViewerComponent(Presentation presentation, JFrame frame)
     {
